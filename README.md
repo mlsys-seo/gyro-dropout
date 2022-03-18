@@ -15,20 +15,16 @@
         1. CIFAR10
         2. CIFAR100
 
-## Instruction for running no dropout experiment
-1. Run the following command for running the experiment.
+## Instruction for running experiments
+1. Run the following command for running the experiment without dropout.
 ```bash
 python main.py --model=lenet --dataset=cifar100 --do_augmentation=True
 ```
-
-## Instruction for running conventional dropout experiment
-1. Run the following command for running the experiment.
+2. Run the following command for running the experiment with conventional dropout.
 ```bash
 python main.py --model=lenet --dataset=cifar100 --do_conventional_dropout=True --do_augmentation=True
 ```
-
-## Instruction for running gyro dropout experiment
-1. Run the following command for running the experiment.
+3. Run the following command for running the experiment with gyro dropout.
 ```bash
 python main.py --model=lenet --dataset=cifar100 --do_gyro_dropout=True --do_augmentation=True
 ```
