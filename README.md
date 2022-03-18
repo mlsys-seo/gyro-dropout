@@ -1,4 +1,5 @@
 # Gyro Dropout: Maximizing Ensemble Effect in Neural Network Training
+Gyro droput is a variant of dropout that improves the efficiency of training neural networks. Instead of randomly dropping out neurons in every training iteration, Gyro droput pre-selects and trains a fixed number of subnetworks. Because each subnetwork is more stably trained, they are more diversified and thus their ensemble achieves good generalization. Gyro dropout improves the accuracy of trained models by up to 1.93%; gyro dropout consistently achieves higher accuracy than conventional dropout in all experiments.
 
 ## Prerequisites
 - Environment setting
